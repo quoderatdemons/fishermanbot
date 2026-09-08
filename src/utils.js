@@ -1,4 +1,4 @@
-import dotenv from 'dotenv/config';
+import dotenv from 'dotenv';
 dotenv.config({ path: '.dev.vars' });
 export async function DiscordRequest(endpoint, options) {
   // append endpoint to root API URL
