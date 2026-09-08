@@ -1,5 +1,5 @@
 import 'dotenv/config';
-
+dotenv.config({ path: '.dev.vars' });
 export async function DiscordRequest(endpoint, options) {
   // append endpoint to root API URL
   const url = 'https://discord.com/api/v10/' + endpoint;
