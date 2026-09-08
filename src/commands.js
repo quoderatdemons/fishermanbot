@@ -40,4 +40,4 @@ const INVENTORY_COMMAND = {
 
 const ALL_COMMANDS = [FISH_COMMAND, REGISTER_COMMAND, INVENTORY_COMMAND];
 
-InstallGlobalCommands(process.env.APP_ID, ALL_COMMANDS);
+InstallGlobalCommands(env.APP_ID, ALL_COMMANDS);
