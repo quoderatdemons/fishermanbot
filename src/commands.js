@@ -1,4 +1,4 @@
-import dotenv from 'dotenv/config';
+import dotenv from 'dotenv';
 import { capitalize, InstallGlobalCommands } from './utils.js';
 dotenv.config({ path: '.dev.vars' });
 // Get the game choices from game.js
