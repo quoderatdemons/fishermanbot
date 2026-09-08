@@ -12,7 +12,6 @@ import {
 import { getRandomFish, DiscordRequest } from './utils.js';
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, getDoc, updateDoc, increment, onSnapshot } from "firebase/firestore";
-dotenv.config({ path: '.dev.vars' });
 // Create an express app
 const app = express();
 // Get port, or default to 3000
